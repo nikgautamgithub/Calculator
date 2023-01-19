@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.text-center{
+  text-align: center;
+}
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  border-radius: 4px;
+  border: 2px solid black;
+  cursor: pointer;
+} 
+.row{
+  margin: 8px 0px;
+}
+.row input{
+  padding: 10px 34px ;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.flex{
+  display: flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
