@@ -15,3 +15,7 @@ Array.from(buttons).forEach((button)=>{
     }
   })
 })
+
+document.querySelector('#ce').onclick = () => {
+    document.querySelector('input').value = '';
+};
